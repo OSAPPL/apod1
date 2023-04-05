@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+* {
+    /*padding: 0.5rem;*/
+     font-family: 'sono',sans-serif;
+     background-color: black;
+     box-sizing: border-box;
+
+}
+
+
+
+#f {
+    font-family: 'sono', sans-serif;
+    justify-content: center;
+    font-size: xx-small;
+     
+}
+
+.main{
+    
+    font-size: small;
+    color: white;
+    
+
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1.75rem;
+   
+   
+}
+
+#topic{
+   text-align: center;
+}
+
+.copy{
+    font-size: x-small;
+}
+
+@media only screen and (min-width: 200px){
+    .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    height: 275px;
+    border-radius: 1.75rem;
+    }
+
+    .main{
+        
+        font-size: xx-small;
+        color: white;
+        padding-top: 0.5rem;
+        
+    
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 675px;
+    height: 675px;
+    border-radius: 1.75rem;
+    }
+
+    .main{
+        
+        font-size:medium;
+        color: white;
+        padding-top: 1.5rem;
+        
+    
+    }
+}
